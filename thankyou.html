@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — ProWash</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .ty-wrap{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(ellipse at 30% 20%, #0A1526 0%, var(--bg) 60%);
+    padding:24px;text-align:center;
+  }
+  .ty-card{
+    max-width:520px;background:var(--panel);border:1px solid var(--line);border-radius:24px;
+    padding:56px 40px;box-shadow:0 40px 90px -30px rgba(0,0,0,0.7);
+  }
+  .ty-icon{
+    width:76px;height:76px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--blue-deep));
+    display:flex;align-items:center;justify-content:center;margin:0 auto 26px;
+    box-shadow:0 0 40px -8px rgba(30,127,224,0.7);
+  }
+  .ty-card h1{
+    font-family:var(--font-display);font-weight:700;font-size:2rem;color:#fff;
+    text-transform:uppercase;margin-bottom:14px;letter-spacing:-0.01em;
+  }
+  .ty-card p{color:var(--muted);font-size:1rem;line-height:1.65;margin-bottom:32px;}
+  .ty-actions{display:flex;flex-direction:column;gap:12px;}
+  .logo-mini{
+    font-family:var(--font-display);font-weight:700;font-size:1.2rem;color:#fff;margin-bottom:30px;
+    display:inline-block;
+  }
+  .logo-mini span{color:var(--blue-bright);}
+</style>
+</head>
+<body>
+  <div class="ty-wrap">
+    <div class="ty-card reveal in">
+      <a href="index.html" class="logo-mini">PRO<span>WASH</span></a>
+      <div class="ty-icon">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <h1>Request Received</h1>
+      <p>Thanks for booking with ProWash! We've got your details and will message you on WhatsApp shortly to confirm your slot in Faisalabad.</p>
+      <div class="ty-actions">
+        <a class="btn btn-primary" href="https://wa.me/923432250983?text=Hi%20ProWash%2C%20I%20just%20submitted%20a%20booking%20form" target="_blank" rel="noopener">Chat on WhatsApp Now</a>
+        <a class="btn btn-ghost" href="index.html">Back to Home</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
